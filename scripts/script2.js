@@ -136,16 +136,16 @@ var factory = splitio({
 var client = factory.client();
     
 client.on(client.Event.SDK_READY, function() {
-  var treatment = client.getTreatment("double_column");
+
+  var treatment = client.getTreatment("background");
   if (treatment == "on") {
     // console.log("Treament is on");
-    document.querySelector('main').classList.add('double-column');
+    document.querySelector('body').classList.add('grey');
   } else if (treatment == "off") {
     // console.log("Treament is off");
-    document.querySelector('main').classList.remove('double-column');
+    document.querySelector('body').classList.remove('grey');
   } else {
       // insert your control treatment code here
   }
-
 });    
 
