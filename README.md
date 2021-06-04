@@ -16,7 +16,7 @@ first A / B testing link : https://ivanozerets.github.io/Lab10/
 
 second A / B testing link: https://ivanozerets.github.io/Lab10_2/
 
-The second custom A/B for secondSplit.html is different because 50% of the time the background of the page turns grey and 50% to default.
+The second custom A / B for secondSplit.html is different because 50% of the time the background of the page turns grey and 50% to default.
 
 ## Part 3
 
